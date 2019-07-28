@@ -12,6 +12,7 @@ function App() {
         <p>Second push from Thi after got deleted</p>
         <h2>Thi-feature-code</h2>
         <p>Second commit from thi-feature-code brand</p>
+        <h3>Thi feature NEW base</h3>
       </header>
     </div>
   );
