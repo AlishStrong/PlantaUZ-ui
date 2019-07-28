@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to PlantaUz</h1>
+        <p>Alisher master</p>
       </header>
     </div>
   );
