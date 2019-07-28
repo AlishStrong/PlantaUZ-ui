@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Welcome to PlantaUz</h1>
-        <p>Created develop branch</p>
+        <p>Alisher</p>
       </header>
     </div>
   );
