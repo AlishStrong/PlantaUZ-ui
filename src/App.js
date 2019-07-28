@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Welcome to PlantaUz</h1>
         <p>Alisher added feature changes</p>
+        <p>Develop from branch Thi-feature </p>
       </header>
     </div>
   );
