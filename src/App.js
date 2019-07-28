@@ -9,6 +9,7 @@ function App() {
         <h1>Welcome to PlantaUz</h1>
         <p>Alisher added feature changes</p>
         <p>Develop from branch Thi-feature </p>
+        <p>Second push from Thi after got deleted</p>
       </header>
     </div>
   );
