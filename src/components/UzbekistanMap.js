@@ -14,7 +14,7 @@ class UzbekistanMap extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="d-flex justify-content-center">
         <ComposableMap
           projection="mercator"
           projectionConfig={{
@@ -23,7 +23,7 @@ class UzbekistanMap extends Component {
           width={920}
           height={600}
           style={{
-            width: "100%",
+            width: "70%",
             height: "auto"
           }}
         >
