@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from "./pages/home";
+import Plan from './pages/plan';
 import {
   Container,
   Navbar,
@@ -9,10 +11,6 @@ import {
   FormControl,
   Button
 } from "react-bootstrap";
-
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import plan from "./pages/plan";
-import notfound from './pages/notfound.jsx';
 function App() {
   return (
     <div>
@@ -29,13 +27,12 @@ function App() {
         </Form>
       </Navbar>
       <Container>
-        <BrowserRouter>
-          <Switch>
+      <BrowserRouter>
+        <Switch>
             <Route path="/" component={Home} exact={true} />
-            <Route path="/plan/:id" component={plan} />
-            <Route component={notfound} />
-          </Switch>
-        </BrowserRouter>     
+            <Route path="/plan/:id" component={Plan} />
+        </Switch>
+      </BrowserRouter>     
       </Container>
     </div>
   );
