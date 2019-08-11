@@ -9,6 +9,10 @@ import {
   FormControl,
   Button
 } from "react-bootstrap";
+
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import plan from "./pages/plan";
+import notfound from './pages/notfound.jsx';
 function App() {
   return (
     <div>
@@ -25,7 +29,13 @@ function App() {
         </Form>
       </Navbar>
       <Container>
-        <Home />
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" component={Home} exact={true} />
+            <Route path="/plan/:id" component={plan} />
+            <Route component={notfound} />
+          </Switch>
+        </BrowserRouter>     
       </Container>
     </div>
   );
